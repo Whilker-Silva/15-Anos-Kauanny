@@ -15,8 +15,9 @@
 }
 
 * {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -31,7 +32,7 @@ header {
 header img {
     display: block;
     margin: auto;
-    padding: 1%;
+    padding: 2%;
     width: 25%;
 }
 
@@ -39,45 +40,64 @@ header img {
 nav {
     display: block;
     background-color: var(--cor01);
-    color: black;
     margin: auto;
     width: 90%;
-    padding: 15px;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.267);
+    border-radius: 5px;
+
 }
 
-nav a {
+nav div {
 
-    text-align: center;
+    list-style: none;
+    display: block;
+    margin: auto;
+    
+    padding: 15px;
+    width: 70%;
+}
+
+
+
+nav div a {
+
     color: var(--cor02);
+    text-align: center;
     text-decoration: none;
     font-weight: bolder;
-    padding: 10px;
-    margin: 0px 1px;
-    border-radius: 5px;
-    transition-duration: 0.3s;
+    padding: 8px;
+    font-size: 18pt;
+
+    
+
+
 }
 
-nav a:hover {
+/*@media (max-width:991px){
+
+}*/
+
+/*nav a:hover {
     background-color: var(--cor02);
     color: var(--cor01);
     font-weight: bolder;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.377);
-}
+}*/
 
 div#video {
-    background-color: var(--cor05);
-    margin: 0px -10px;
-    padding-bottom: 60%;
+    margin: 0px 0px;
+    padding-bottom: 59%;
     position: relative;
 }
 
 div#video>iframe {
+
+    border-radius: 10px;
     position: absolute;
-    top: 2%;
+    top: 10%;
     left: 10%;
-    width: 80%;
-    height: 77%;
+    width: 79%;
+    height: 75.5%;
 }
 
 main {
