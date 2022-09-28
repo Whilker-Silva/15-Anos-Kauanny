@@ -26,24 +26,12 @@ body {
 
 header {
     background-image: linear-gradient(to bottom, #55017467, var(--cor02));
-    min-height: 100px;
-    padding-bottom: 15px;
-}
-
-header h1 {
-
-    font-family: var(--fonte-titulos);
-    font-weight: normal;
-    font-size: 4em;
-    color: var(--cor02);
-    text-align: center;
-    padding: 10px 0px;
-    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.562);
 }
 
 header img {
     display: block;
     margin: auto;
+    padding: 1%;
     width: 25%;
 }
 
@@ -53,7 +41,7 @@ nav {
     background-color: var(--cor01);
     color: black;
     margin: auto;
-    width: 80%;
+    width: 90%;
     padding: 15px;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.267);
 }
