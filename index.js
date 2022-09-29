@@ -5,8 +5,7 @@ function clickMenu() {
     }
 
     else {
-        itens.style.display = 'block'
-        burguer.style.backgroundcolor = '#f3e6fc'
+        itens.style.display = 'block'        
     }
 }
 
@@ -18,8 +17,4 @@ function mudouTamanho() {
     else {
         itens.style.display = 'none'
     }
-}
-
-function clickVideo() {
-    videoConvite.style.backgroundcolor = 'green'
 }
