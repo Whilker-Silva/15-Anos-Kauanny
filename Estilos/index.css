@@ -36,7 +36,7 @@ header img {
     display: block;
     margin: auto;
     padding: 2%;
-    width: 25%;
+    width: 20%;
 }
 
 i#burguer {
@@ -114,10 +114,9 @@ article#Afesta H1{
 
 video{
     display: block;
-    margin: 35px auto;
-   
+    margin: 1vw auto;  
 
-    width: 70vw;
+    width: 85vw;
     border-radius: 10px;
 }
 
