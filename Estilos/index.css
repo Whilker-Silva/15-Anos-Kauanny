@@ -11,7 +11,7 @@
     --cor01: #560174;
     --cor02: #f3e6fc;
 
-    /*--fonte-titulos: sans-serif;*/
+    --fonte-titulos: sans-serif;
     --fonte-padrão: sans-serif;
     --fonte-destaque: sans-serif;
 }
@@ -39,7 +39,7 @@ header img {
     width: 25%;
 }
 
-i#burguer{
+i#burguer {
     color: var(--cor02);
     background-color: var(--cor01);
 
@@ -49,35 +49,35 @@ i#burguer{
     margin-right: 5vw;
     border-radius: 5px;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.267);
-    text-align: center;    
+    text-align: center;
     font-weight: bolder;
     cursor: pointer;
 }
 
-i#burguer:hover{
+i#burguer:hover {
     background-color: var(--cor02);
     color: var(--cor01);
     font-weight: bolder;
-    
+
 }
 
 menu {
     display: none;
     background-color: var(--cor01);
     margin-left: 5vw;
-    margin-right: 5vw;    
+    margin-right: 5vw;
     border-radius: 5px;
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.267);    
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.267);
 }
 
 menu ul {
-    list-style: none;    
+    list-style: none;
 }
 
 menu ul li a {
 
     display: block;
-    padding: 20px;
+    padding: 10px 20px;
     color: var(--cor02);
     font-family: var(--fonte-destaque);
     text-align: center;
@@ -91,21 +91,46 @@ menu ul li a:hover {
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.377);
 }
 
-div#videoConvite {
-    margin: 0px 0px;
-    padding-bottom: 59%;
-    position: relative;
-    
+
+
+article#Afesta {
+
+    width: 90vw;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+    text-align: justify;
+
 }
 
-div#videoConvite iframe {
+article#Afesta H1{
 
+    text-align: center;
+    font-family: var(--fonte-titulos);
+    font-size: 32pt;
+    padding: 10px;
+}
+
+video{
+    display: block;
+    margin: 35px auto;
+   
+
+    width: 70vw;
     border-radius: 10px;
-    position: absolute;
-    top: 10%;
-    left: 10%;
-    width: 79%;
-    height: 75.5%;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.267);
 }
 
+
+
+
+
+
+
+
+footer{
+    background-image: linear-gradient(to bottom, var(--cor02), #5501749d);
+
+    height: 100px;
+
+}
