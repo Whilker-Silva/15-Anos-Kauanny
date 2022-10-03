@@ -106,7 +106,7 @@ video {
 
 article#festa {
 
-    margin: 0vw 10vw;
+    margin: 0vw 15vw;
     font-family: var(--fonte-padrão);
     text-align: justify;
 }
@@ -121,7 +121,8 @@ article#festa h1 {
 
 article#festa p {
     font-family: var(--fonte-padrão);
-    text-align: center;
+    text-align: left;
+    line-height: 25px;
     font-size: medium;
     padding-bottom: 15px;
 }
@@ -131,7 +132,8 @@ article#festa p {
 article#festa img {
     display: block;
     margin: auto;
-    width: 60vw;
+    width: 70vw;
+    border-radius: 5px;
 }
 
 
