@@ -36,7 +36,7 @@ header img {
     display: block;
     margin: auto;
     padding: 2%;
-    width: 20%;
+    width: 25%;
 }
 
 i#burguer {
@@ -79,7 +79,9 @@ menu ul li a {
     padding: 10px 20px;
     color: var(--cor02);
     font-family: var(--fonte-destaque);
+    font-size: large;
     text-align: center;
+
 }
 
 menu ul li a:hover {
@@ -87,36 +89,37 @@ menu ul li a:hover {
     background-color: var(--cor02);
     color: var(--cor01);
     font-weight: bolder;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.377);
-}
-
-article#Afesta {
-
-    width: 90vw;
-    margin: auto;
-    padding: 20px;
     border-radius: 5px;
-    background-color: white;
-    text-align: justify;
-
+    
 }
 
-article#Afesta H1{
-
-    text-align: center;
-    font-family: var(--fonte-titulos);
-    font-size: 32pt;
-    padding: 10px;
-}
-
-video{
+video {
     display: block;
-    margin: 3vw auto;  
+    margin: 3vw auto;
 
-    width: 85vw;
+    width: 80vw;
     border-radius: 10px;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.267);
+}
 
+
+
+article#festa{
+    margin: 10vw;
+    font-family: var(--fonte-padrão);
+    text-align: justify;
+}
+
+article#festa h1 {
+    color: var(--cor01);
+    font-family: var(--fonte-destaque);
+    text-align: center;
+    font-size: 32pt;
+    padding: 30px;
+}
+
+article#festa p {
+    
 }
 
 
@@ -125,8 +128,7 @@ video{
 
 
 
-
-footer{
+footer {
     background-image: linear-gradient(to bottom, var(--cor02), #5501749d);
 
     height: 100px;
