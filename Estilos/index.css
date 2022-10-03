@@ -119,7 +119,7 @@ main h1{
 
 main p {
     font-family: var(--fonte-padrão);
-    text-align: left;    
+    text-align: justify;    
     font-size: medium;
     padding-bottom: 15px;
 }
