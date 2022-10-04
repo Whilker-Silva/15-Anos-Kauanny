@@ -122,6 +122,7 @@ main p {
     text-align: justify;
     font-size: medium;
     padding-bottom: 15px;
+    line-height: 30px;
 }
 
 article#cronometro {
@@ -133,7 +134,7 @@ article#cronometro {
 }
 
 article#cronometro h1 {
-    color: black;
+    color: var(--cor02);
     font-family: var(--fonte-destaque);
     text-align: center;
     font-size: 5vw;
@@ -155,21 +156,25 @@ article#cronometro h1 {
     justify-items: center;
     flex-direction: column;
     text-align: center;
-    color: black;
-    padding: 5px;
+    color: var(--cor02);
+    padding: 2vw;
 
 }
 
 .cont-timer div {
     font-size: 10vw;
     font-weight: 900;
-    
+    background-color: var(--cor01);
+    border-radius: 10px 10px 0px 0px;
+
 }
 
 .cont-timer span {
     font-size: 3vw;
     font-weight: 600;
-    font-family: var(--fonte-padrão)
+    font-family: var(--fonte-padrão);
+    background-color: var(--cor01);
+    border-radius: 0px 0px 10px 10px;
 }
 
 article#festa img {
@@ -178,6 +183,24 @@ article#festa img {
     margin-bottom: 30px;
     width: 70vw;
     border-radius: 5px;
+}
+
+p#chamada {
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+p#data {
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+p#endereco {
+    text-align: center;
+    margin-bottom: 30px;
+
 }
 
 div.localizacao {
