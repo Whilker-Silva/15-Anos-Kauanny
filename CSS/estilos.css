@@ -13,7 +13,7 @@
 
     --fonte-titulos: sans-serif;
     --fonte-padrão: sans-serif;
-    --fonte-destaque: sans-serif;
+    --fonte-destaque: 'EAGLESE', sans-serif;
 }
 
 * {
@@ -78,8 +78,9 @@ menu ul li a {
     display: block;
     padding: 10px 20px;
     color: var(--cor02);
-    font-family: var(--fonte-destaque);
+    font-family: var(--fonte-titulos);
     font-size: large;
+    font-weight: 600;
     text-align: center;
 
 }
@@ -88,7 +89,6 @@ menu ul li a:hover {
 
     background-color: var(--cor02);
     color: var(--cor01);
-    font-weight: bolder;
     border-radius: 5px;
 
 }
@@ -102,13 +102,13 @@ video {
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.267);
 }
 
-main{
+main {
     margin: 0vw 15vw;
     font-family: var(--fonte-padrão);
-    text-align: justify;  
+    text-align: justify;
 }
 
-main h1{
+main h1 {
     color: var(--cor01);
     font-family: var(--fonte-destaque);
     text-align: center;
@@ -119,9 +119,57 @@ main h1{
 
 main p {
     font-family: var(--fonte-padrão);
-    text-align: justify;    
+    text-align: justify;
     font-size: medium;
     padding-bottom: 15px;
+}
+
+article#cronometro {
+    margin: 30px 10vw 10px 10vw;
+    background-image: linear-gradient(to bottom, var(--cor01), var(--cor02));
+    border-radius: 20px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.267);
+
+}
+
+article#cronometro h1 {
+    color: black;
+    font-family: var(--fonte-destaque);
+    text-align: center;
+    font-size: 5vw;
+    padding: 10px;
+}
+
+.timer {
+    display: flex;
+}
+
+.cont-timer {
+
+    width: 25vw;
+    height: 15vw;
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: black;
+    padding: 5px;
+
+}
+
+.cont-timer div {
+    font-size: 10vw;
+    font-weight: 900;
+    
+}
+
+.cont-timer span {
+    font-size: 3vw;
+    font-weight: 600;
+    font-family: var(--fonte-padrão)
 }
 
 article#festa img {
@@ -132,20 +180,20 @@ article#festa img {
     border-radius: 5px;
 }
 
-div.localizacao{
-    
+div.localizacao {
+
     display: block;
     margin: auto;
     margin-bottom: 20px;
-   
+
     text-align: center;
 }
 
-article#festa div iframe{
+article#festa div iframe {
     width: 70vw;
     height: 40vw;
     border-radius: 5px;
-    
+
 
 }
 
@@ -160,9 +208,9 @@ article#festa div iframe{
 
 
 
-    footer {
-        background-image: linear-gradient(to bottom, var(--cor02), #5501749d);
+footer {
+    background-image: linear-gradient(to bottom, var(--cor02), #5501749d);
 
-        height: 100px;
+    height: 100px;
 
-    }
+}
