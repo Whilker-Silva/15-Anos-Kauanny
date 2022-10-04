@@ -1,19 +1,28 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: 'SaturdayBright';
+    font-family: 'edwardian';
     src: url('Fontes/edwardian-script-itc.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'SaturdayBright';
+    src: url(Fontes/Baby\ Aletha.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
 :root {
     --cor01: #560174;
-    --cor02: #f3e6fc;
+    --cor02: #f8f3fc;
 
-    --fonte-titulos: sans-serif;
+    --fonte-titulos: 'SaturdayBright', sans-serif;
     --fonte-padrão: sans-serif;
-    --fonte-destaque: 'SaturdayBright', sans-serif;
+    --fonte-destaque: 'edwardian', sans-serif;
 }
 
 * {
@@ -34,8 +43,17 @@ header {
 header img {
     display: block;
     margin: auto;
-    padding: 4%;
-    width: 25%;
+    padding: 4vw 0px 2vw 0px;
+    width: 30%;
+}
+
+header p {
+    text-align: center;
+    margin-bottom: 4vw;
+    font-weight: 900;
+    font-size: 3vw;
+    color: var(--cor01);
+
 }
 
 i#burguer {
@@ -77,7 +95,7 @@ menu ul li a {
     display: block;
     padding: 10px 20px;
     color: var(--cor02);
-    font-family: var(--fonte-titulos);
+    font-family: var(--fonte-padrão);
     font-size: large;
     font-weight: 600;
     text-align: center;
@@ -99,6 +117,53 @@ video {
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.267);
 }
 
+#cronometro {
+    margin: 5vw 0vw 10px 0vw;    
+    
+}
+
+#cronometro h1 {
+    color: var(--cor01);
+    font-family: var(--fonte-destaque);
+    text-align: center;
+    font-size: 7vw;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.timer {
+    display: flex;
+    margin: 0vw 10vw 0px 10vw;
+}
+
+.cont-timer {
+    width: 25vw;
+    height: 15vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: var(--cor01);
+    padding: 2vw;
+}
+
+.cont-timer div {
+    font-size: 9vw;
+    font-weight: 700;
+    /*background-color: #55017479;*/
+    border-radius: 10px 10px 0px 0px;
+}
+
+.cont-timer span {
+    font-size: 3vw;
+    font-weight: 600;
+    font-family: var(--fonte-padrão);
+    /*background-color: #55017479;*/
+    border-radius: 0px 0px 10px 10px;
+}
+
 main {
     margin: 0vw 15vw;
     font-family: var(--fonte-padrão);
@@ -117,58 +182,10 @@ main h1 {
 
 main p {
     font-family: var(--fonte-padrão);
-    text-align: center;
+    text-align: justify;
     font-size: medium;
     padding-bottom: 15px;
     line-height: 30px;
-}
-
-#cronometro {
-    margin: 30px 10vw 10px 10vw;
-    background-image: linear-gradient(to bottom, var(--cor01), #dfb7fc);
-    border-radius: 20px;
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.267);
-}
-
-#cronometro h1 {
-    color: var(--cor02);
-    font-family: var(--fonte-destaque);
-    text-align: center;
-    font-size: 8vw;
-    padding: 10px;
-    font-weight: 600;
-}
-
-.timer {
-    display: flex;
-}
-
-.cont-timer {
-    width: 25vw;
-    height: 15vw;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    flex-direction: column;
-    text-align: center;
-    color: var(--cor02);
-    padding: 2vw;
-}
-
-.cont-timer div {
-    font-size: 10vw;
-    font-weight: 900;
-    /*background-color: #55017479;*/
-    border-radius: 10px 10px 0px 0px;
-}
-
-.cont-timer span {
-    font-size: 3vw;
-    font-weight: 600;
-    font-family: var(--fonte-padrão);
-    /*background-color: #55017479;*/
-    border-radius: 0px 0px 10px 10px;
 }
 
 #festa img {
@@ -182,7 +199,8 @@ main p {
 p#chamada {
     font-weight: 900;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 3vw;
+   
 }
 
 p#data {
