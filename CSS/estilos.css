@@ -127,7 +127,7 @@ main p {
 
 article#cronometro {
     margin: 30px 10vw 10px 10vw;
-    background-image: linear-gradient(to bottom, var(--cor01), var(--cor02));
+    background-image: linear-gradient(to bottom, var(--cor01), #dfb7fc);
     border-radius: 20px;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.267);
 
@@ -164,7 +164,7 @@ article#cronometro h1 {
 .cont-timer div {
     font-size: 10vw;
     font-weight: 900;
-    background-color: var(--cor01);
+    /*background-color: #55017479;*/
     border-radius: 10px 10px 0px 0px;
 
 }
@@ -173,7 +173,7 @@ article#cronometro h1 {
     font-size: 3vw;
     font-weight: 600;
     font-family: var(--fonte-padrão);
-    background-color: var(--cor01);
+    /*background-color: #55017479;*/
     border-radius: 0px 0px 10px 10px;
 }
 
