@@ -174,7 +174,7 @@ main h1 {
     color: var(--cor01);
     font-family: var(--fonte-destaque);
     text-align: center;
-    font-size: 6vw;
+    font-size: 8vw;
     padding: 10px;
     font-weight: 600;
 }
@@ -199,18 +199,8 @@ main p {
 p#chamada {
     font-weight: 900;
     text-align: center;
-    margin-bottom: 3vw;
+    margin-bottom: 1vw;
    
-}
-
-p#data {
-    text-align: center;
-    padding-bottom: 0px;
-}
-
-p#endereco {
-    text-align: left;
-    margin-bottom: 30px;
 }
 
 div.localizacao {
@@ -225,3 +215,44 @@ article#festa div iframe {
     height: 40vw;
     border-radius: 5px;
 }
+
+
+#presentes ul{   
+    list-style: none;
+    text-align: center;
+    font-family: var(--fonte-padrão);
+    font-size: 2.5vw;
+   
+}
+
+#presentes ul li{
+    background-color: var(--cor01);
+    border-radius: 10px;
+    margin: 2vw;
+    color: var(--cor02);
+}
+
+#presentes ul.fotos{
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+}
+
+#presentes ul.fotos li{
+    background-color: var(--cor02);    
+    display: block;
+    width: 20vw;
+}
+
+#presentes ul.fotos li img{
+    border-radius: 10px; 
+    border-style: solid;
+    border-color: var(--cor01);   
+    display: block;
+    width: 20vw;
+}
+
+
+
+
+
