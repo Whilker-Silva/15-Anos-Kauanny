@@ -217,6 +217,11 @@ article#festa div iframe {
     border-radius: 5px;
 }
 
+#presentes {
+    margin: 0vw 5vw;
+}
+
+
 #presentes h1 {
     color: var(--cor01);
     font-family: var(--fonte-destaque);
@@ -226,10 +231,6 @@ article#festa div iframe {
     font-weight: 600;
 }
 
-#presentes {
-
-    margin: 0vw 5vw;
-}
 
 #presentes h2 {
     background-color: var(--cor01);
@@ -252,5 +253,5 @@ article#festa div iframe {
     border: solid;
     border-color: var(--cor01);
     border-radius: 30px;
-    /* width: 5vw;*/
+    width: 26vw;
 }
