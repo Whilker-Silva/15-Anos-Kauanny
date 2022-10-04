@@ -168,6 +168,7 @@ main {
     margin: 0vw 15vw;
     font-family: var(--fonte-padrão);
     text-align: justify;
+
 }
 
 main h1 {
@@ -192,7 +193,7 @@ main p {
     display: block;
     margin: auto;
     margin-bottom: 30px;
-    width: 70vw;
+    width: 68vw;
     border-radius: 5px;
 }
 
@@ -211,47 +212,45 @@ div.localizacao {
 }
 
 article#festa div iframe {
-    width: 70vw;
+    width: 68vw;
     height: 40vw;
     border-radius: 5px;
 }
 
+#presentes h1 {
+    color: var(--cor01);
+    font-family: var(--fonte-destaque);
+    text-align: center;
+    font-size: 8vw;
+    padding-top: 2vw;
+    font-weight: 600;
+}
 
-#presentes ul {
-    list-style: none;
+#presentes {
+
+    margin: 0vw 5vw;
+}
+
+#presentes h2 {
+    background-color: var(--cor01);
+    border-radius: 10px;
+    margin: 0vw 10vw;
+    color: var(--cor02);
     text-align: center;
     font-family: var(--fonte-padrão);
     font-size: 2.5vw;
-
 }
 
-#presentes ul li {
-    background-color: var(--cor01);
-    border-radius: 10px;
-    margin: 2vw;
-    color: var(--cor02);
-}
-
-#presentes ul.fotos {
+#presentes div.fotos {
     justify-content: center;
     justify-items: center;
     display: flex;
 }
 
-#presentes ul.fotos li {
-    background-color: var(--cor02);
-    display: block;
-    width: 20vw;
-}
-
-#presentes ul.fotos li img {
-    border-radius: 10px;
-    border-style: solid;
+#presentes div.fotos img {
+    margin: 2vw;
+    border: solid;
     border-color: var(--cor01);
-    display: block;
-    width: 20vw;
-}
-
-#presentes p {
-    text-align: center;
+    border-radius: 30px;
+    /* width: 5vw;*/
 }
