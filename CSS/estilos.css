@@ -118,8 +118,8 @@ video {
 }
 
 #cronometro {
-    margin: 5vw 0vw 10px 0vw;    
-    
+    margin: 5vw 0vw 10px 0vw;
+
 }
 
 #cronometro h1 {
@@ -200,7 +200,7 @@ p#chamada {
     font-weight: 900;
     text-align: center;
     margin-bottom: 1vw;
-   
+
 }
 
 div.localizacao {
@@ -217,42 +217,41 @@ article#festa div iframe {
 }
 
 
-#presentes ul{   
+#presentes ul {
     list-style: none;
     text-align: center;
     font-family: var(--fonte-padrão);
     font-size: 2.5vw;
-   
+
 }
 
-#presentes ul li{
+#presentes ul li {
     background-color: var(--cor01);
     border-radius: 10px;
     margin: 2vw;
     color: var(--cor02);
 }
 
-#presentes ul.fotos{
+#presentes ul.fotos {
     justify-content: center;
     justify-items: center;
     display: flex;
 }
 
-#presentes ul.fotos li{
-    background-color: var(--cor02);    
+#presentes ul.fotos li {
+    background-color: var(--cor02);
     display: block;
     width: 20vw;
 }
 
-#presentes ul.fotos li img{
-    border-radius: 10px; 
+#presentes ul.fotos li img {
+    border-radius: 10px;
     border-style: solid;
-    border-color: var(--cor01);   
+    border-color: var(--cor01);
     display: block;
     width: 20vw;
 }
 
-
-
-
-
+#presentes p {
+    text-align: center;
+}
