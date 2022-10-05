@@ -267,3 +267,7 @@ footer{
     height: 20vw;
     background-image: linear-gradient(to bottom, var(--cor02),  #55017465); 
 }
+
+#bold{
+    font-weight: 900;
+}
