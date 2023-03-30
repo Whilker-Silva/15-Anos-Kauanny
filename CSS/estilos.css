@@ -139,7 +139,7 @@ video {
 .cont-timer {
     width: 25vw;
     height: 15vw;
-    position: relative;
+    position:relative;
     display: flex;
     justify-content: center;
     justify-items: center;
