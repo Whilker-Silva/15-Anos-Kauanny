@@ -18,7 +18,7 @@ function mudouTamanho() {
     }
 }
 
-let to = new Date('nov 19 2022 21:00:00');
+let to = new Date('mar 30 2024 21:00:00');
 
 function update() {
     let from = new Date();
